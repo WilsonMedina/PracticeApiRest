@@ -1,0 +1,56 @@
+{
+  "fruits": [
+    {
+      "name": "Mango",
+      "sabor": "Dulce",
+      "id": 5
+    },
+    {
+      "id": 1,
+      "name": "Tomate",
+      "sabor": "Dulce"
+    },
+    {
+      "name": "Platano",
+      "sabor": "Dulce",
+      "id": 3
+    },
+    {
+      "name": "Manzana",
+      "sabor": "Dulce",
+      "id": 6
+    },
+    {
+      "name": "Piñas",
+      "sabor": "Dulce",
+      "id": 7
+    },
+    {
+      "name": "Pera",
+      "sabor": "Dulce",
+      "id": 8
+    }
+  ],
+  "vegetable": [
+    {
+      "id": 1,
+      "name": "Tomate",
+      "sabor": "Dulce"
+    },
+    {
+      "id": 2,
+      "name": "Cebolla",
+      "sabor": "Amarga"
+    },
+    {
+      "id": 3,
+      "name": "Palta",
+      "sabor": "Cremosa"
+    },
+    {
+      "id": 4,
+      "name": "Zanahoria",
+      "sabor": "Dulce"
+    }
+  ]
+}

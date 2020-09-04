@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api-REST</title>
+  </head>
+  <body>
+    <h1>Api-REST</h1>
+
+    <section id="api-rest">
+      <article>
+        <h2 class="api-rest-title">Agregar fruta</h2>
+        <form class="api-rest-form">
+          <input type="text" name="nombre" placeholder="Nombre.." />
+          <br />
+          <input type="text" name="sabor" placeholder="Sabor.." />
+          <br />
+          <input type="submit" value="Enviar" />
+          <input type="hidden" name="id" />
+        </form>
+      </article>
+      <article>
+        <h2>Ver frutas</h2>
+        <table class="api-rest-table">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Sabor</th>
+              <th>Accion</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </article>
+    </section>
+    <template id="api-rest-template">
+        <tr>
+            <td class="name"></td>
+            <td class="sabor"></td>
+            <td>
+              <button class="edit">Editar</button>
+              <button class="delete">Eliminar</button>
+            </td>
+          </tr>
+    </template>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./javascript/api_rest.js"></script>
+  </body>
+</html>
